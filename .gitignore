@@ -5,3 +5,4 @@ db.sqlite3
 geckodriver
 geckodriver.log
 chromedriver
+cloud_sql_proxy

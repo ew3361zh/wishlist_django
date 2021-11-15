@@ -1,7 +1,7 @@
 /* Base styles */
 
 #site-header {
-    background: url('../img/vw_road.jpg') 0 0 repeat-x;
+    background: 0 0 repeat-x;
     background-position: center;
     color: rgb(61, 170, 67);
     padding: 40px 0 40px 0px;
