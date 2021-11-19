@@ -1,0 +1,4 @@
+cron:
+- description: "get cat fact"
+  url: /catfact
+  schedule: every 5 mins

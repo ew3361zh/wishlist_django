@@ -4,6 +4,13 @@ from django.core.files.storage import default_storage
 
 # Create your models here.
 
+class CatFact(models.Model):
+    fact = models.CharField(max_length=500)
+
+    def __str__(self):
+        return self.fact
+
+
 class Place(models.Model): # import provided above, we will specify fields which will map to columns in a db
     user = models.ForeignKey('auth.User', null=False, on_delete=models.CASCADE)
     name = models.CharField(max_length=200)

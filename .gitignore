@@ -6,3 +6,4 @@ geckodriver
 geckodriver.log
 chromedriver
 cloud_sql_proxy
+travel_credentials.json
